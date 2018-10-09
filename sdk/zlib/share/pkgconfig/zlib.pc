@@ -1,0 +1,13 @@
+prefix=H:/OpenGL/SDKLibs/zlib/vc
+exec_prefix=H:/OpenGL/SDKLibs/zlib/vc
+libdir=H:/OpenGL/SDKLibs/zlib/vc/lib
+sharedlibdir=H:/OpenGL/SDKLibs/zlib/vc/lib
+includedir=H:/OpenGL/SDKLibs/zlib/vc/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

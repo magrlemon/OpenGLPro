@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bloom">
+      <UniqueIdentifier>{f317e5ce-1c69-4e45-8fe8-b11e107fb244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5f00ccd6-8800-43c2-98e7-b48afd5942f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\bloom">
+      <UniqueIdentifier>{ae5e6627-0c41-4325-b104-1a07c053ef91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{f32949c4-3ffa-4250-ac47-811f940851a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter02">
+      <UniqueIdentifier>{fbe620a5-317d-4fc2-9af0-c428a4952f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter02\Bounce">
+      <UniqueIdentifier>{45290f79-c74b-443c-baaf-43692983ab7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter02\Move">
+      <UniqueIdentifier>{fd06f447-8456-4266-8767-c477fbf56f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter02\Triangle">
+      <UniqueIdentifier>{9a112547-166c-4bb4-93c2-051f0751890c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hdr_bloom\hdr_bloom.cpp">
+      <Filter>bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter02\Bounce\Bounce.cpp">
+      <Filter>sample\Chapter02\Bounce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter02\Move\Move.cpp">
+      <Filter>sample\Chapter02\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter02\Triangle\Triangle.cpp">
+      <Filter>sample\Chapter02\Triangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\hdr_bloom\basic.vs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+    <None Include="..\hdr_bloom\blur.fs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+    <None Include="..\hdr_bloom\color.fs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+    <None Include="..\hdr_bloom\hdr_bloom.vs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+    <None Include="..\hdr_bloom\hdr_exposure.fs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+    <None Include="..\hdr_bloom\tex_replace.fs">
+      <Filter>shaders\bloom</Filter>
+    </None>
+  </ItemGroup>
+</Project>
