@@ -108,7 +108,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\;..\;..\..\GLTools\include;..\..\sdk\OpenEXR\include;..\hdr_bloom;..\..\sdk\zlib\include;..\..\sdk\ilmbase\include\OpenEXR;..\sample;..\sample\Chapter01;..\sample\Chapter02;..\sample\Chapter03;..\sample\Chapter04;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\;..\..\GLTools\include;..\..\sdk\OpenEXR\include;..\hdr_bloom;..\..\sdk\zlib\include;..\..\sdk\ilmbase\include\OpenEXR;..\..\sdk\;..\sample;..\sample\Chapter01;..\sample\Chapter02;..\sample\Chapter03;..\sample\Chapter04;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -154,6 +154,7 @@
     <ClCompile Include="..\..\sample\Chapter02\Bounce\Bounce.cpp" />
     <ClCompile Include="..\..\sample\Chapter02\Move\Move.cpp" />
     <ClCompile Include="..\..\sample\Chapter02\Triangle\Triangle.cpp" />
+    <ClCompile Include="..\..\sample\Chapter03\Blending\Blending.cpp" />
     <ClCompile Include="..\Block.cpp" />
     <ClCompile Include="..\hdr_bloom\hdr_bloom.cpp" />
   </ItemGroup>

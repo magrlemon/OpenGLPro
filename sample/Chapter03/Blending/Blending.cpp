@@ -4,6 +4,8 @@
 
 #include <GLTools.h>	// OpenGL toolkit
 #include <GLShaderManager.h>
+#define  _OPENGL_BLEND
+#ifdef _OPENGL_BLEND
 
 #ifdef __APPLE__
 #include <glut/glut.h>
@@ -206,3 +208,4 @@ int main(int argc, char* argv[])
 	glutMainLoop();
 	return 0;
 	}
+#endif

@@ -37,6 +37,12 @@
     <Filter Include="sample\Chapter02\Triangle">
       <UniqueIdentifier>{9a112547-166c-4bb4-93c2-051f0751890c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sample\Chapter03">
+      <UniqueIdentifier>{dc4eaa09-2a98-4571-a10c-656d2821d5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter03\Blending">
+      <UniqueIdentifier>{77350222-9bb8-43a8-bec5-db8f130ac4d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Block.cpp">
@@ -53,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="..\..\sample\Chapter02\Triangle\Triangle.cpp">
       <Filter>sample\Chapter02\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter03\Blending\Blending.cpp">
+      <Filter>sample\Chapter03\Blending</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

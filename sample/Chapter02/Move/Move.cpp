@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////////
 // open marco
 //////////////////////////////////////////////////////////////////////////
-#define  _OPENGL_MOVE
+//#define  _OPENGL_MOVE
 
 #ifdef _OPENGL_MOVE
 
@@ -125,7 +125,7 @@ int main(int argc, char* argv[])
 	gltSetWorkingDirectory(argv[0]);
 	
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH); 
 	glutInitWindowSize(800, 600);
 	glutCreateWindow("Move Block with Arrow Keys");
 	
