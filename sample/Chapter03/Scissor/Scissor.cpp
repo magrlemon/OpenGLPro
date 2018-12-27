@@ -11,7 +11,8 @@
 #define FREEGLUT_STATIC
 #include <GL/glut.h>
 #endif
-
+//#define  _OPENGL_SCISSOR_
+#ifdef   _OPENGL_SCISSOR_
 ///////////////////////////////////////////////////////////
 // Called to draw scene
 void RenderScene(void)
@@ -65,3 +66,5 @@ int main(int argc, char* argv[])
 
 	return 0;
 	}
+
+#endif

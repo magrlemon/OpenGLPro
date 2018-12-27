@@ -4,7 +4,7 @@
 
 #include <GLTools.h>	// OpenGL toolkit
 #include <GLShaderManager.h>
-#define  _OPENGL_BLEND
+//#define  _OPENGL_BLEND
 #ifdef _OPENGL_BLEND
 
 #ifdef __APPLE__

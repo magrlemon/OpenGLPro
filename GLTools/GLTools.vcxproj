@@ -23,7 +23,7 @@
     <ProjectGuid>{C4BA1C7A-6B6C-42CF-AB41-FC3EBD358DEC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GLTools</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

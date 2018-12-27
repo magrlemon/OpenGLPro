@@ -10,6 +10,7 @@
 #include <GLBatch.h>
 #include <GLGeometryTransform.h>
 
+#include <GLShaderManager.h>
 #include <math.h>
 #ifdef __APPLE__
 #include <glut/glut.h>
@@ -17,7 +18,8 @@
 #define FREEGLUT_STATIC
 #include <GL/glut.h>
 #endif
-
+//#define  _OPENGL_PRIMITIVES_
+#ifdef _OPENGL_PRIMITIVES_
 /////////////////////////////////////////////////////////////////////////////////
 // An assortment of needed classes
 GLShaderManager		shaderManager;
@@ -372,3 +374,4 @@ int main(int argc, char* argv[])
 	glutMainLoop();
 	return 0;
 	}
+#endif

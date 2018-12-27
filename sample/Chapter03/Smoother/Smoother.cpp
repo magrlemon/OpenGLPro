@@ -12,6 +12,9 @@
 #include <GL/glut.h>
 #endif
 
+#define  _OPENGL_SMOOTHER_
+#ifdef   _OPENGL_SMOOTHER_
+
 GLShaderManager shaderManager;
 GLFrustum viewFrustum;
 GLBatch smallStarBatch;
@@ -45,6 +48,7 @@ void ProcessMenu(int value)
             glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
             glEnable(GL_POLYGON_SMOOTH);
             glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+
             break;
 
         case 2:
@@ -230,3 +234,5 @@ int main(int argc, char* argv[])
 
 	return 0;
 	}
+
+#endif

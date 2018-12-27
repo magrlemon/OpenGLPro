@@ -23,7 +23,7 @@
     <ProjectGuid>{67D85D95-D527-4F27-AB33-494B91BB6DB9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GLProgram</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,10 +155,16 @@
     <ClCompile Include="..\..\sample\Chapter02\Move\Move.cpp" />
     <ClCompile Include="..\..\sample\Chapter02\Triangle\Triangle.cpp" />
     <ClCompile Include="..\..\sample\Chapter03\Blending\Blending.cpp" />
+    <ClCompile Include="..\..\sample\Chapter03\GeoTest\GeoTest.cpp" />
+    <ClCompile Include="..\..\sample\Chapter03\Primitives\Primitives.cpp" />
+    <ClCompile Include="..\..\sample\Chapter03\Scissor\Scissor.cpp" />
+    <ClCompile Include="..\..\sample\Chapter03\Smoother\Smoother.cpp" />
     <ClCompile Include="..\Block.cpp" />
     <ClCompile Include="..\hdr_bloom\hdr_bloom.cpp" />
+    <ClCompile Include="PickingTexture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PickingTexture.h" />
     <ClInclude Include="platform.h" />
   </ItemGroup>
   <ItemGroup>

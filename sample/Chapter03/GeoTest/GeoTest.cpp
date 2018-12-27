@@ -8,6 +8,9 @@
 #include <GLFrustum.h>
 #include <GLGeometryTransform.h>
 
+//#define  _OPENGL_GEO_TEST
+#ifdef _OPENGL_GEO_TEST
+
 #include <math.h>
 #ifdef __APPLE__
 #include <glut/glut.h>
@@ -85,11 +88,9 @@ void RenderScene(void)
     //shaderManager.UseStockShader(GLT_SHADER_FLAT, transformPipeline.GetModelViewProjectionMatrix(), vRed);
     shaderManager.UseStockShader(GLT_SHADER_DEFAULT_LIGHT, transformPipeline.GetModelViewMatrix(), transformPipeline.GetProjectionMatrix(), vRed);
     
-
     torusBatch.Draw();
 
     modelViewMatix.PopMatrix();
-
 
     glutSwapBuffers();
 	}
@@ -180,3 +181,4 @@ int main(int argc, char* argv[])
 	glutMainLoop();
 	return 0;
     }
+#endif

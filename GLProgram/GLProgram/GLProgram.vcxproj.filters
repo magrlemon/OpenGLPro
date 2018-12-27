@@ -43,6 +43,21 @@
     <Filter Include="sample\Chapter03\Blending">
       <UniqueIdentifier>{77350222-9bb8-43a8-bec5-db8f130ac4d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sample\Picking">
+      <UniqueIdentifier>{8255cda1-9466-4345-a28a-a10dc9dd2a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter03\GeoTest">
+      <UniqueIdentifier>{78e58199-0936-46f6-9ea4-188556e4af20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter03\Primitives">
+      <UniqueIdentifier>{02e78f04-023c-4b0f-9684-8fa8e9f35ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Scissor">
+      <UniqueIdentifier>{e4c7e497-1cc7-408a-b333-8e73931b8578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter03\Smoother">
+      <UniqueIdentifier>{92bffb47-fe7c-4be7-aa61-3996599e272c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Block.cpp">
@@ -63,10 +78,28 @@
     <ClCompile Include="..\..\sample\Chapter03\Blending\Blending.cpp">
       <Filter>sample\Chapter03\Blending</Filter>
     </ClCompile>
+    <ClCompile Include="PickingTexture.cpp">
+      <Filter>sample\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter03\GeoTest\GeoTest.cpp">
+      <Filter>sample\Chapter03\GeoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter03\Primitives\Primitives.cpp">
+      <Filter>sample\Chapter03\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter03\Scissor\Scissor.cpp">
+      <Filter>sample\Scissor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter03\Smoother\Smoother.cpp">
+      <Filter>sample\Chapter03\Smoother</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="platform.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingTexture.h">
+      <Filter>sample\Picking</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
