@@ -58,6 +58,12 @@
     <Filter Include="sample\Chapter03\Smoother">
       <UniqueIdentifier>{92bffb47-fe7c-4be7-aa61-3996599e272c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sample\Chapter04">
+      <UniqueIdentifier>{95c36f8b-fed0-4470-94ed-57c5004dcfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample\Chapter04\ModelViewProjection">
+      <UniqueIdentifier>{efaa4672-8eda-4e42-b984-f778a47dbd3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Block.cpp">
@@ -92,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="..\..\sample\Chapter03\Smoother\Smoother.cpp">
       <Filter>sample\Chapter03\Smoother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sample\Chapter04\ModelViewProjection\ModelViewProjection.cpp">
+      <Filter>sample\Chapter04\ModelViewProjection</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -17,7 +17,8 @@
 #define FREEGLUT_STATIC
 #include <GL/glut.h>
 #endif
-
+#define  _OPENGL_MODELVIEW_PROJECTION_
+#ifdef   _OPENGL_MODELVIEW_PROJECTION_
 
 // Global view frustum class
 GLFrustum           viewFrustum;
@@ -124,3 +125,4 @@ int main(int argc, char* argv[])
 	glutMainLoop();
 	return 0;
     }
+#endif

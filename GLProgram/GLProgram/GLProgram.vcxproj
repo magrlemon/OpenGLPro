@@ -159,6 +159,7 @@
     <ClCompile Include="..\..\sample\Chapter03\Primitives\Primitives.cpp" />
     <ClCompile Include="..\..\sample\Chapter03\Scissor\Scissor.cpp" />
     <ClCompile Include="..\..\sample\Chapter03\Smoother\Smoother.cpp" />
+    <ClCompile Include="..\..\sample\Chapter04\ModelViewProjection\ModelViewProjection.cpp" />
     <ClCompile Include="..\Block.cpp" />
     <ClCompile Include="..\hdr_bloom\hdr_bloom.cpp" />
     <ClCompile Include="PickingTexture.cpp" />

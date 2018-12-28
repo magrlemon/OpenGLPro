@@ -12,7 +12,7 @@
 #include <GL/glut.h>
 #endif
 
-#define  _OPENGL_SMOOTHER_
+//#define  _OPENGL_SMOOTHER_
 #ifdef   _OPENGL_SMOOTHER_
 
 GLShaderManager shaderManager;
